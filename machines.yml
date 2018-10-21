@@ -1,9 +1,9 @@
 ---
-- name: DevSecOps-Box
-  box: bento/ubuntu-16.04
-  ram: 512
-  ip: 10.0.1.10
-  ansible: "provisioning/devsecops-box.yml"
+# - name: DevSecOps-Box
+#   box: bento/ubuntu-16.04
+#   ram: 512
+#   ip: 10.0.1.10
+#   ansible: "provisioning/devsecops-box.yml"
 
 # - name: jenkins
 #   box: bento/ubuntu-16.04
@@ -36,8 +36,8 @@
   #  ansible: "dojo.yml"
 
   # Includes registry docker, docker and docker compose installed.
-- name: prod
-  box: bento/ubuntu-16.04
-  ram: 1024
-  ip: 10.0.1.22
-  ansible: "provisioning/prod.yml"
+# - name: prod
+#   box: bento/ubuntu-16.04
+#   ram: 1024
+#   ip: 10.0.1.22
+#   ansible: "provisioning/prod.yml"
