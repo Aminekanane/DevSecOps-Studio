@@ -1,0 +1,5 @@
+---
+
+- name: Install inspec dependencies
+  become_user: gitlab-runner
+  shell: pip2 install flask
