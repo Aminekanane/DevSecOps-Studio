@@ -16,5 +16,5 @@
     name: "{{ item }}"
     state: present
   with_items:
-    - sslyze
+    # - sslyze
     - ansible

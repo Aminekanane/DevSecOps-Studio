@@ -43,6 +43,7 @@
     - secfigo.gauntlt
     - geerlingguy.docker
     - gitlab-runner
+    - inspec
     - geerlingguy.ansible-role-packer
     - cli-tools
   tags:

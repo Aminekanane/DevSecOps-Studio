@@ -71,6 +71,7 @@
     - geerlingguy.java
     - geerlingguy.jenkins
     - jenkins # Docker settings for jenkins
+    - inspec
     - python
     - cli-tools
     - geerlingguy.ansible-role-packer
